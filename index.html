@@ -4,9 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style_rest.css">
+    <link rel="stylesheet" href="style.css">
     <!-- Linking Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- Linking Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <title>Restaurant/Coffee </title>
 </head>
 <body>
@@ -80,53 +82,112 @@
         </section>
 
         <!-- Menu section -->
-         <section class="menu-sectin">
-            <h2 class="sectin-title">Our Menu</h2>
+        <section class="menu-section">
+            <h2 class="section-title">Our Menu</h2>
             <div class="section-content">
                 <ul class="menu-list">
                     <li class="menu-item">
-                        <img class="menu-image" src="" alt="Hot Beverages">
+                        <img class="menu-image" src="images/IMG-20250702-WA0025.jpg" alt="Hot Beverages">
                         <h3 class="name">Hot Beverages</h3>
                         <p class="text">Wide range of Stearming hot coffee to make you fresh and light.</p>
                     </li>
                     
                     <li class="menu-item">
-                        <img class="menu-image" src="" alt="Cold Beverages">
+                        <img class="menu-image" src="images/IMG-20250702-WA0025.jpg" alt="Cold Beverages">
                         <h3 class="name">Cold Beverages</h3>
                         <p class="text">Creamy and frothy cold coffee to make you cool.</p>
                     </li>
 
                     <li class="menu-item">
-                        <img class="menu-image" src="" alt="Refreshment">
+                        <img class="menu-image" src="images/IMG-20250702-WA0025.jpg" alt="Refreshment">
                         <h3 class="name">Refreshment</h3>
                         <p class="text">Fruit and icy refreshing drink to make feel refresh.</p>
                     </li>
 
                     <li class="menu-item">
-                        <img class="menu-image" src="" alt="Special Combos">
+                        <img class="menu-image" src="images/IMG-20250702-WA0025.jpg" alt="Special Combos">
                         <h3 class="name">Special Combos</h3>
                         <p class="text">Your favorite eating and drinking combations.</p>
                     </li>
 
                     <li class="menu-item">
-                        <img class="menu-image" src="" alt="Dessert">
+                        <img class="menu-image" src="images/IMG-20250702-WA0025.jpg" alt="Dessert">
                         <h3 class="name">Dessert</h3>
                         <p class="text">Satiate your palate and take you on a culinary treat.</p>
                     </li>
 
                     <li class="menu-item">
-                        <img class="menu-image" src="" alt="Hot Beverages">
+                        <img class="menu-image" src="images/IMG-20250702-WA0025.jpg" alt="Hot Beverages">
                         <h3 class="name">Burger & Frensh Fries</h3>
                         <p class="text">Quick bites to satisfy your small size hunger.</p>
                     </li>
 
                 </ul>
             </div>
-         </section>
+        </section>
+
+        <!-- Testimonials section -->
+        <section class="testimonials-section">
+            <h2 class="section-title">Testimonials</h2>
+            <div class="section-content">
+                <div class="slider-container swiper">
+                    <div class="slider-wrapper">
+                        <ul class="testimonials-list swiper-wrapper">
+                            <li class="testimonial swiper-slide">
+                                <img class="user-image" src="images/IMG-20250702-WA0034.jpg" alt="User" >
+                                <h3 class="name">Sarah Johnson</h3>
+                                <i class="feedback">"Loved the Frensh roast. Perfectly balanced and rich. Will order again!"</i>
+                            </li>
+
+                            <li class="testimonial swiper-slide">
+                                <img class="user-image" src="images/IMG-20250702-WA0034.jpg" alt="User" >
+                                <h3 class="name">James Wilson</h3>
+                                <i class="feedback">"Great espresso blend! Smooth and blod flavor. Fast shipping too!"</i>
+                            </li>
+
+                            <li class="testimonial swiper-slide">
+                                <img class="user-image" src="images/IMG-20250702-WA0034.jpg" alt="User" >
+                                <h3 class="name">Mchael Brown</h3>
+                                <i class="feedback">"Fantastic mocha flavor. Fresh and aromatic. Quick shipping!"</i>
+                            </li>
+
+                            <li class="testimonial swiper-slide">
+                                <img class="user-image" src="images/IMG-20250702-WA0034.jpg" alt="User" >
+                                <h3 class="name">Emily Harris</h3>
+                                <i class="feedback">"Excellent quality! Fresh beans and quick deliverly. Highly recommend."</i>
+                            </li>
+
+                            <li class="testimonial swiper-slide">
+                                <img class="user-image" src="images/IMG-20250702-WA0034.jpg" alt="User" >
+                                <h3 class="name">Anthony Thompson</h3>
+                                <i class="feedback">"Best decaf I've tried! Smooth and flavorful. Arrived promply."</i>
+                            </li>
+
+                        </ul>
+                        
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
 
     </main>
 
-    <script src="script_rest.js"></script>
+    <!-- linking Swiper Script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <!-- linking Custom Script -->
+    <script src="script.js"></script>
+    
 
+
+    <!-- 47:49 -->
 </body>
 </html>
